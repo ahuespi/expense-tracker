@@ -87,3 +87,4 @@ handling events (manejar eventos)
 
 CORE FEATURES OF REACT:
 * STATES
+
