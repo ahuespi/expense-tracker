@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+El index.js es el primer archivo que se renderiza.
+
+BEST PRACTICE
+Put new component in a new file
+One file per component
+
+File Name Convention React= Starting with capital character, one word,where if you combine. 
