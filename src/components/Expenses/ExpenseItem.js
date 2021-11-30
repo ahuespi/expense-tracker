@@ -3,6 +3,9 @@ import Card from '../UI/Card';
 import './ExpenseItem.css';
 
 const ExpenseItem = ({title, amount, date, id}) => {
+    const clickHandler = () => {
+        console.log('Hice click aqui!')
+    }
     
     return (
         <Card className="expense-item">
@@ -11,8 +14,9 @@ const ExpenseItem = ({title, amount, date, id}) => {
                 <h2>{title}</h2>
                 <div className="expense-item__price">${amount}</div>
             </div>
+            <button onClick={clickHandler} >Change title</button>
         </Card>
     )
 }
 
-export default ExpenseItem
+export default ExpenseItem 

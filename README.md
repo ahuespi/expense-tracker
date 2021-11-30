@@ -78,3 +78,12 @@ Put new component in a new file
 One file per component
 
 File Name Convention React= Starting with capital character, one word,where if you combine. 
+
+USER INTERACTION & STATE
+
+Aplicaciones interactivas que puedan reaccionar a los eventos del usuario
+
+handling events (manejar eventos)
+
+CORE FEATURES OF REACT:
+* STATES
