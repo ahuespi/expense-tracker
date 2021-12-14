@@ -25,7 +25,7 @@ const ExpenseForm = () => {
 
     const submitHandler = (e) => {
         e.preventDefault()
-
+        console.log('test')
         const expenseData = {
             title: enteredTitle,
             amount: enteredAmount,
@@ -47,8 +47,8 @@ const ExpenseForm = () => {
         onChange = {
             titleChangeHandler
         }
-        /> <
-        /div> <
+        /> < /
+        div > <
         div className = "new-expense__control" >
         <
         label > Amount < /label> <
@@ -58,8 +58,8 @@ const ExpenseForm = () => {
         onChange = {
             amountChangeHandler
         }
-        /> <
-        /div> <
+        /> < /
+        div > <
         div className = "new-expense__control" >
         <
         label > Date < /label> <
@@ -69,13 +69,13 @@ const ExpenseForm = () => {
         onChange = {
             dateChangeHandler
         }
-        /> <
-        /div> <
+        /> < /
+        div > <
         /div> <
         div className = "new-expense__actions" >
         <
-        button type = "submit" > Add Expense < /button> <
-        /div> <
+        button type = "submit" > Add Expense < /button> < /
+        div > <
         /form>
     )
 }
